@@ -1,0 +1,477 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1437px;
+  height: 2278px;
+}
+
+.frame .overlap {
+  position: relative;
+  width: 1440px;
+  height: 2289px;
+  top: -5px;
+  left: -3px;
+}
+
+.frame .resume {
+  position: absolute;
+  width: 1440px;
+  height: 2289px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 990px;
+  top: 0;
+  left: 0;
+}
+
+.frame .hero {
+  position: absolute;
+  width: 1440px;
+  height: 696px;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-900);
+  overflow: hidden;
+}
+
+.frame .div {
+  position: relative;
+  width: 1955px;
+  height: 1676px;
+  top: -540px;
+  left: -515px;
+}
+
+.frame .rectangle {
+  width: 879px;
+  height: 1125px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff14;
+  border-radius: 35px;
+  position: absolute;
+  filter: blur(299px);
+}
+
+.frame .rectangle-2 {
+  width: 960px;
+  height: 1086px;
+  top: 590px;
+  left: 995px;
+  background-color: #ffffff1f;
+  position: absolute;
+  filter: blur(299px);
+}
+
+.frame .grain {
+  position: absolute;
+  width: 1437px;
+  height: 691px;
+  top: 545px;
+  left: 518px;
+  mix-blend-mode: overlay;
+}
+
+.frame .JOHN {
+  position: absolute;
+  height: 64px;
+  top: 967px;
+  left: 611px;
+  transform: rotate(-90deg);
+  font-family: var(--title-h1-font-family);
+  font-weight: var(--title-h1-font-weight);
+  color: #ffffff;
+  font-size: var(--title-h1-font-size);
+  letter-spacing: var(--title-h1-letter-spacing);
+  line-height: var(--title-h1-line-height);
+  white-space: nowrap;
+  font-style: var(--title-h1-font-style);
+}
+
+.frame .SMITHSON {
+  position: absolute;
+  height: 96px;
+  top: 823px;
+  left: 571px;
+  transform: rotate(-90deg);
+  font-family: "Bai Jamjuree", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -0.8px;
+  line-height: 96px;
+  white-space: nowrap;
+}
+
+.frame .DESIGNER {
+  position: absolute;
+  height: 32px;
+  top: 891px;
+  left: 703px;
+  transform: rotate(-90deg);
+  font-family: var(--title-h5-font-family);
+  font-weight: var(--title-h5-font-weight);
+  color: var(--neutral-0);
+  font-size: var(--title-h5-font-size);
+  letter-spacing: var(--title-h5-letter-spacing);
+  line-height: var(--title-h5-line-height);
+  white-space: nowrap;
+  font-style: var(--title-h5-font-style);
+}
+
+.frame .profile {
+  position: absolute;
+  width: 632px;
+  height: 632px;
+  top: 328px;
+  left: 644px;
+  object-fit: cover;
+}
+
+.frame .lorem-ipsum-dolor {
+  position: absolute;
+  width: 632px;
+  height: 192px;
+  top: 95px;
+  left: 644px;
+  font-family: var(--body-18-regular-font-family);
+  font-weight: var(--body-18-regular-font-weight);
+  color: #ffffff;
+  font-size: var(--body-18-regular-font-size);
+  letter-spacing: var(--body-18-regular-letter-spacing);
+  line-height: var(--body-18-regular-line-height);
+  font-style: var(--body-18-regular-font-style);
+}
+
+.frame .star {
+  top: 298px;
+  left: 614px;
+  position: absolute;
+  width: 59px;
+  height: 59px;
+}
+
+.frame .img {
+  top: 930px;
+  left: 1246px;
+  position: absolute;
+  width: 59px;
+  height: 59px;
+}
+
+.frame .social-media {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 784px;
+  left: 164px;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--content-subheading-font-family);
+  font-weight: var(--content-subheading-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--content-subheading-font-size);
+  letter-spacing: var(--content-subheading-letter-spacing);
+  line-height: var(--content-subheading-line-height);
+  font-style: var(--content-subheading-font-style);
+}
+
+.frame .div-2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame .flowbase-co {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-18-regular-font-family);
+  font-weight: var(--body-18-regular-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--body-18-regular-font-size);
+  letter-spacing: var(--body-18-regular-letter-spacing);
+  line-height: var(--body-18-regular-line-height);
+  font-style: var(--body-18-regular-font-style);
+}
+
+.frame .education {
+  display: flex;
+  flex-direction: column;
+  width: 248px;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 1152px;
+  left: 164px;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--title-h5-font-family);
+  font-weight: var(--title-h5-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--title-h5-font-size);
+  letter-spacing: var(--title-h5-letter-spacing);
+  line-height: var(--title-h5-line-height);
+  white-space: nowrap;
+  font-style: var(--title-h5-font-style);
+}
+
+.frame .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -28px;
+}
+
+.frame .degree-title-here {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-18-medium-font-family);
+  font-weight: var(--body-18-medium-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--body-18-medium-font-size);
+  letter-spacing: var(--body-18-medium-letter-spacing);
+  line-height: var(--body-18-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-18-medium-font-style);
+}
+
+.frame .description {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-14-regular-font-family);
+  font-weight: var(--body-14-regular-font-weight);
+  color: var(--neutral-500);
+  font-size: var(--body-14-regular-font-size);
+  letter-spacing: var(--body-14-regular-letter-spacing);
+  line-height: var(--body-14-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-14-regular-font-style);
+}
+
+.frame .element {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-16-medium-font-family);
+  font-weight: var(--body-16-medium-font-weight);
+  color: var(--primarybase);
+  font-size: var(--body-16-medium-font-size);
+  letter-spacing: var(--body-16-medium-letter-spacing);
+  line-height: var(--body-16-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16-medium-font-style);
+}
+
+.frame .work-experience {
+  position: absolute;
+  height: 32px;
+  top: 1151px;
+  left: 644px;
+  font-family: var(--title-h5-font-family);
+  font-weight: var(--title-h5-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--title-h5-font-size);
+  letter-spacing: var(--title-h5-letter-spacing);
+  line-height: var(--title-h5-line-height);
+  white-space: nowrap;
+  font-style: var(--title-h5-font-style);
+}
+
+.frame .work-experience-2 {
+  top: 1216px;
+  display: flex;
+  flex-direction: column;
+  width: 633px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 40px;
+  position: absolute;
+  left: 643px;
+  background-color: var(--neutral-100);
+}
+
+.frame .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-16-medium-font-family);
+  font-weight: var(--body-16-medium-font-weight);
+  color: var(--neutral-300);
+  font-size: var(--body-16-medium-font-size);
+  letter-spacing: var(--body-16-medium-letter-spacing);
+  line-height: var(--body-16-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-16-medium-font-style);
+}
+
+.frame .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-18-medium-font-family);
+  font-weight: var(--body-18-medium-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--body-18-medium-font-size);
+  letter-spacing: var(--body-18-medium-letter-spacing);
+  line-height: var(--body-18-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-18-medium-font-style);
+}
+
+.frame .company-name-here {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-14-regular-font-family);
+  font-weight: var(--body-14-regular-font-weight);
+  color: var(--neutral-500);
+  font-size: var(--body-14-regular-font-size);
+  letter-spacing: var(--body-14-regular-letter-spacing);
+  line-height: var(--body-14-regular-line-height);
+  font-style: var(--body-14-regular-font-style);
+}
+
+.frame .work-experience-3 {
+  top: 1512px;
+  display: flex;
+  flex-direction: column;
+  width: 633px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 40px;
+  position: absolute;
+  left: 643px;
+  background-color: var(--neutral-100);
+}
+
+.frame .work-experience-4 {
+  top: 1808px;
+  display: flex;
+  flex-direction: column;
+  width: 633px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 40px;
+  position: absolute;
+  left: 643px;
+  background-color: var(--neutral-100);
+}
+
+.frame .line-break {
+  position: absolute;
+  width: 1112px;
+  height: 1px;
+  top: 1055px;
+  left: 164px;
+  object-fit: cover;
+}
+
+.frame .skills {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 1576px;
+  left: 164px;
+}
+
+.frame .div-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--body-18-medium-font-family);
+  font-weight: var(--body-18-medium-font-weight);
+  color: var(--neutral-900);
+  font-size: var(--body-18-medium-font-size);
+  letter-spacing: var(--body-18-medium-letter-spacing);
+  line-height: var(--body-18-medium-line-height);
+  font-style: var(--body-18-medium-font-style);
+}
+
+.frame .frame-wrapper {
+  position: relative;
+  width: 248px;
+  height: 4px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.frame .div-5 {
+  width: 224px;
+  height: 8px;
+  background-color: var(--primarybase);
+}
+
+.frame .div-6 {
+  width: 160px;
+  height: 8px;
+  background-color: var(--primarybase);
+}
+
+.frame .div-7 {
+  width: 100px;
+  height: 8px;
+  background-color: var(--primarybase);
+}
+
+.frame .text-wrapper-6 {
+  position: absolute;
+  height: 32px;
+  top: 892px;
+  left: 225px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
